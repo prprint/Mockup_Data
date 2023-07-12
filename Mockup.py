@@ -1,34 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
 
 
-get_ipython().system(' pip install faker')
-
-
-# In[1]:
-
-
-import pandas as pd
-
-
-# In[2]:
-
-
-from pprint import pprint
-# data = [10,20,30,40,50,60]
-
-data = {'Name': ['Tom', 'nick', 'krish', 'jack'],
-
-        'Age': [20, 21, 19, 18]}
-# df = pd.DataFrame(data, columns=['Numbers'])
-df = pd.DataFrame(data)
-
-pprint(df)
-
-
-# In[6]:
 
 
 import faker as f
